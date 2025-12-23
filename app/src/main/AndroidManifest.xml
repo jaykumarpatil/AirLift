@@ -12,6 +12,8 @@
     <!-- New for Android 16 (API 36) to accept incoming socket connections -->
     <uses-permission android:name="android.permission.ACCESS_LOCAL_NETWORK" />
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
